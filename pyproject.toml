@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cmdia"
+version = "1.0.0"
+authors = [
+  { name="zealain", email="cmdia@zealain.com" },
+]
+description = "Command Line Media Browser"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-only"
+license-files = ["LICENSE.md"]
+dependencies = [
+    "pydantic>=2.13.0",
+    "natsort>=8.4.0",
+    "pyyaml>=6.0.3"
+]
+
+[project.scripts]
+cmdia = "cmdia.cmdia:main"
+
+[project.urls]
+Homepage = "https://github.com/zealain/cmdia"
+Issues = "https://github.com/zealain/cmdia/issues"
