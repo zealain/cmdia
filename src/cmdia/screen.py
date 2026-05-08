@@ -150,6 +150,7 @@ class ScreenView:
         self._directory = Directory(path, self._config, self._db)
         self._cursor = 0
         self._top_item = 0
+        self.save_state()
         self.update()
 
     def up(self) -> None:
