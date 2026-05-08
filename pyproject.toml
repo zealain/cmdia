@@ -29,3 +29,4 @@ cmdia = "cmdia.cmdia:main"
 [project.urls]
 Homepage = "https://github.com/zealain/cmdia"
 Issues = "https://github.com/zealain/cmdia/issues"
+
